@@ -84,10 +84,10 @@ transition: transform 0.1s, box-shadow 0.1s;
 
 
 .imagenes-laterales {
-  width: 200px;
+  width: 300px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-  margin-left: 360px;
+  margin-left: 450px;
  
 }
 
