@@ -30,6 +30,10 @@ border-radius: 8px;
 display: flex;
 margin: 20px;
 }
+.contenedor .caja{
+height: 200px;
+
+}
 .caja-leermas {
 background-color: #ffffff;
 border-left: 5px solid #333366;
@@ -45,6 +49,8 @@ text-align: center;
 margin-bottom: 40px;
 color: #333366;
 }
+
+
 
 .bloque-tema {
 background-color: #e6e6fa; 
@@ -81,7 +87,11 @@ transition: transform 0.1s, box-shadow 0.1s;
   align-items: flex-start; 
   flex-wrap: wrap;
 }
-
+.contenedor{
+display: flex;
+flex-wrap: nowrap;
+justify-content: space-around;
+}
 
 .imagenes-laterales {
   width: 300px;
@@ -89,6 +99,14 @@ transition: transform 0.1s, box-shadow 0.1s;
   box-shadow: 0 4px 8px rgba(0,0,0,0.15);
   margin-left: 450px;
  
+}
+.imagenes-sueltas{
+width: 300px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+margin:2px;
+
+
 }
 
 nav{
@@ -124,6 +142,6 @@ footer {
         padding: 1px;
         align-items: center;
         font-family: "Roboto Condensed", sans-serif; 
-        width: 100%;
+        width: 98,5%;
        
     }
