@@ -55,6 +55,16 @@ text-align: center;
 
 }
 
+#caja1{
+  background-image: url(imagenes/invisible3.jpg);
+}
+
+#caja2{}
+
+#caja3{
+  background-image: url(imagenes/duraznosangrando.jpg);
+}
+
 h1 {
 text-align: center;
 margin-bottom: 40px;
