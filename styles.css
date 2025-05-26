@@ -10,7 +10,7 @@ padding: 0;
 
 p{
   font-family: Georgia, 'Times New Roman', Times, serif;
-  width: 60%;
+ 
   
 }
 
@@ -19,6 +19,15 @@ a{
   text-decoration: none;
 }
 
+
+.contenedor-cajas{
+display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* opcional para centrar las filas */
+  gap: 20px; /* espacio entre cajas */
+  margin-top: 20px;
+
+}
 
 .caja {
 background-color: #ffffff;
@@ -41,6 +50,8 @@ padding: 20px;
 margin-bottom: 30px;
 box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 border-radius: 8px;
+width: 25%;
+text-align: center;
 
 }
 
@@ -59,6 +70,7 @@ margin-bottom: 40px;
 border-radius: 12px;
 box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
+
 .bloque-tema h2 {
 text-align: center;
 color: #2b2b5f;
@@ -142,6 +154,7 @@ footer {
         padding: 1px;
         align-items: center;
         font-family: "Roboto Condensed", sans-serif; 
-        width: 98,5%;
+        width: 100%;
+  
        
     }
