@@ -8,23 +8,24 @@ padding: 0;
 
 }
 
-p{
-  font-family: Georgia, 'Times New Roman', Times, serif;
- 
+.caja .p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 100px;
   
 }
 
 a{
   color: white;
   text-decoration: none;
+  color: #333366;
 }
 
 
 .contenedor-cajas{
 display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* opcional para centrar las filas */
-  gap: 20px; /* espacio entre cajas */
+  justify-content: center; 
+  gap: 20px; 
   margin-top: 20px;
 
 }
@@ -38,6 +39,39 @@ box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 border-radius: 8px;
 display: flex;
 margin: 20px;
+}
+.caja-temas {
+background-color: #ffffff;
+border-left: 5px solid #333366;
+padding: 20px;
+margin-bottom: 30px;
+box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+border-radius: 8px;
+display: flex;
+margin: 20px;
+flex-direction: column;
+ width: 370px;          
+  height: 250px; 
+}
+
+.caja-temas p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.9rem;
+  text-shadow: 2px 2px 5px #333366;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.caja-temas h1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333366;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.caja-temas h1 a:hover {
+  transform: scale(1.05);
+  color: #0e9424; /* o cualquier color que prefieras */
 }
 .contenedor .caja{
 height: 200px;
@@ -55,6 +89,11 @@ text-align: center;
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+transition: transform 0.3s ease, font-size 0.3s ease, background-image 0.3s ease;
+}
+.caja-leermas:hover {
+  transform: scale(1.05);
+  font-size: 1.1em;
 }
 
 #caja1{
@@ -84,6 +123,7 @@ background-position: center;
   background-position: center;
   background-size: cover;
   font-size: 1.5em;
+   color: white;
   
 }
 #caja4{
@@ -95,9 +135,17 @@ background-position: center;
 }
 #caja5{
  font-size: 1.5em;
+ background-image: url(imagenes/invisibleconcierto.jpg);
+  background-position: center;
+  background-size:cover;
+   color: white;
 }
 #caja6{
  font-size: 1.5em;
+  background-position: center;
+  background-size:cover;
+  background-image: url(imagenes/invisible7jpg.jpg);
+  color: white;
 }
 
 h1 {
@@ -169,8 +217,14 @@ nav{
     border-radius: 5px;
     padding: 5px;
     background-color:  #e6e6fa;
-  color: black;
-    
+    color: black;
+    transition: transform 0.3s ease, font-size 0.3s ease, background-image 0.3s ease;
+  }
+
+.botones:hover{
+  transform: scale(1.05);
+  font-size: 1.1em;
+
 }
 
 .menu{
