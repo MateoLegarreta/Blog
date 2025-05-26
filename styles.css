@@ -52,40 +52,62 @@ box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 border-radius: 8px;
 width: 25%;
 text-align: center;
-
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
 }
 
 #caja1{
-  background-image: url(imagenes/invisible3.jpg);
+  background-image: url(imagenes/invisible4.jpg);
+background-position: center;
+  background-size: cover;
+  color:white;
+  font-size: 1.5em;
+  text-shadow: 2px 2px 5px black;
+
 }
 
-#caja2{}
+.caja-leermas p{
+ text-shadow: 2px 2px 5px black;
+}
+
+
+#caja2{
+ font-size: 1.5em;
+ background-image: url(imagenes/invisible5.webp);
+ background-position: center;
+   color: white;
+}
 
 #caja3{
   background-image: url(imagenes/duraznosangrando.jpg);
+  background-position: center;
+  background-size: cover;
+  font-size: 1.5em;
+  
+}
+#caja4{
+  background-image: url(imagenes/capitanbeto.jpg);
+  background-position: center;
+  background-size:cover;
+  font-size: 1.5em;
+  color: white;
+}
+#caja5{
+ font-size: 1.5em;
+}
+#caja6{
+ font-size: 1.5em;
 }
 
 h1 {
-text-align: center;
-margin-bottom: 40px;
+
+
+align-self: center;
 color: #333366;
+
 }
 
-
-
-.bloque-tema {
-background-color: #e6e6fa; 
-padding: 25px;
-margin-bottom: 40px;
-border-radius: 12px;
-box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-}
-
-.bloque-tema h2 {
-text-align: center;
-color: #2b2b5f;
-margin-bottom: 30px;
-}
 
 .btn-leer {
 background-color: #333366;
@@ -97,6 +119,7 @@ cursor: pointer;
 margin-top: 20px;
 box-shadow: 0 5px 0 #232348;
 transition: transform 0.1s, box-shadow 0.1s;
+
 }
 
 .btn-leer:active {
@@ -106,8 +129,9 @@ transition: transform 0.1s, box-shadow 0.1s;
 .contenedor-principal {
   display: flex;
   gap: 2rem; 
-  align-items: flex-start; 
   flex-wrap: wrap;
+  width: 100%;
+justify-content: center;
 }
 .contenedor{
 display: flex;
