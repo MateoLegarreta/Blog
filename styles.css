@@ -68,7 +68,7 @@ margin: 20px;
 }
 
 .caja-em{
-  background-color: #ffffff;
+background-color: #ffffff;
 border-left: 5px solid #333366;
 padding: 20px;
 margin-bottom: 30px;
@@ -81,6 +81,23 @@ margin: 20px;
   font-family: 'forum';
   font-size: 1.3rem;
 }
+
+.caja-dyl{
+background-color: #ffffff;
+border-left: 5px solid #333366;
+padding: 20px;
+margin-bottom: 30px;
+box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+border-radius: 8px;
+display: flex;
+margin: 20px;
+}
+
+.caja-dyl p{
+  font-family: Tahoma;
+  font-size: 1.3rem;
+}
+
 .caja-temas {
 background-color: #ffffff;
 border-left: 5px solid #333366;
