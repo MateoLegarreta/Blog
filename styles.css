@@ -253,8 +253,8 @@ transition: transform 0.1s, box-shadow 0.1s;
   display: flex;
   gap: 2rem; 
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-justify-content: center;
 }
 .contenedor{
 display: flex;
@@ -326,7 +326,5 @@ footer {
         padding: 1px;
         align-items: center;
         font-family: "Roboto Condensed", sans-serif; 
-        width: 100%;
-  
-       
+        width: 98,5%
     }
