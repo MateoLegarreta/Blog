@@ -330,13 +330,8 @@ footer {
     }
 
 @media (max-width: 600px){
-  ul{
-    flex-direction: column;
-  }
 
-  li{
-    width: 100;
-  }
+  
 
   .contenedor-cajas{
 flex-direction: column;
@@ -347,5 +342,99 @@ align-items: center;
   width: 80%;
   justify-content: center;
 
+}
+nav {
+    height: auto;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+nav ul.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+    width: 100%;
+}
+
+nav ul.menu li {
+    width: 100%;
+    text-align: center;
+}
+
+.botones {
+    display: block;
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+
+.caja-fei{
+
+flex-direction: column;
+width: 80%;
+}
+
+.caja-fei p{
+  font-family: 'forum';
+  font-size: 1.2rem;
+}
+
+.imagenes-laterales {
+  margin-left: 100px;
+  width: 250px;
+}
+
+.caja-em{
+width: 60%;
+height: auto;
+display: block;
+}
+.caja-em p{
+  font-family: 'forum';
+  font-size: 1.3rem;
+}
+
+.imagenes-sueltas{
+width: 100px;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+margin:2px;
+display: flex;
+}
+
+.caja {
+text-align: justify;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+}
+
+.caja .imagenes-laterales{
+margin-left: 0px;
+margin-top: 20px;
+width: 250px;
+}
+
+.caja-presentaciones{
+flex-direction: column;
+display: block;
+margin: 20px;
+height: 550px;
+text-align: justify;
+}
+.caja-presentaciones p{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+iframe{
+  width: 100%;
+  height: 250px;
+ 
 }
 }
