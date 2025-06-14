@@ -76,10 +76,20 @@ box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
 border-radius: 8px;
 display: flex;
 margin: 20px;
+
 }
 .caja-em p{
   font-family: 'forum';
   font-size: 1.3rem;
+}
+body.estilo-musical {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+body.estilo-musical .contenedor-principal {
+  flex: 1;
 }
 
 .caja-dyl{
@@ -255,11 +265,14 @@ transition: transform 0.1s, box-shadow 0.1s;
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+  
 }
 .contenedor{
 display: flex;
-flex-wrap: nowrap;
 justify-content: space-around;
+gap: 1rem;
+
+
 }
 
 .imagenes-laterales {
@@ -323,17 +336,23 @@ gap: 20px;
 footer {
         background-color: #222;
         text-align: center;
-        padding: 1px;
+        padding: 10px;
         align-items: center;
         font-family: "Roboto Condensed", sans-serif; 
-        width: 98,5%
+        width: 98,5%;
+        color: white;
+       
     }
 
 @media (max-width: 600px){
 
-  
+.contenedor{
+flex-direction: column;
+align-items: center;
+}
 
-  .contenedor-cajas{
+
+.contenedor-cajas{
 flex-direction: column;
 align-items: center;
 
@@ -388,6 +407,10 @@ width: 80%;
   margin-left: 100px;
   width: 250px;
 }
+.imagenes-sueltas{
+width: 90%;
+max-width: 350px;
+}
 
 .caja-em{
 width: 60%;
@@ -399,13 +422,6 @@ display: block;
   font-size: 1.3rem;
 }
 
-.imagenes-sueltas{
-width: 100px;
-border-radius: 8px;
-box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-margin:2px;
-display: flex;
-}
 
 .caja {
 text-align: justify;
